@@ -5,4 +5,33 @@
 
 .fonts{
     font-family: 'Josefin Sans', sans-serif;
+    font-variant: small-caps;
+}
+
+#text-css
+{    font-family: 'Josefin Sans', sans-serif;
+    color: purple;
+    letter-spacing: 2px;
+    /* direction: rtl; */
+    text-indent: 10px;
+    /* text-align: center;l */
+}
+
+
+a:link{
+    color: aqua;
+}
+
+a:visited
+{
+    color: greenyellow;
+}
+
+a:hover
+{
+    color: gold;
+}
+
+a:active{
+    color: coral;
 }
