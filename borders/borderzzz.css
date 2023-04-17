@@ -1,0 +1,27 @@
+
+
+.borderz{
+
+    width : 500px;
+    height : 500px;
+ background-color: cornflowerblue;
+
+ /* border-width: 5px;
+ border-color: grey;
+ border-style: groove; */
+
+ /* or */
+
+ border: 5px grey groove ;
+ border-radius: 20px;
+
+
+}
+
+ul{
+    list-style: square ;
+}
+
+ol{
+    list-style-type:lower-latin ;
+}
