@@ -3,16 +3,23 @@
     padding: 0;
 }
 
-
-
 .boxmodelz{
     width: 200;
     height: 200;
-    background-color: bisque;
-
+    background-color: blue;
+margin-left: 5px;
+margin-top: 50px;
+margin-right: 100px;
 }
 
 input{
 
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding: 5px;  
+      /* padding all 4 sides, sequeece is top right bottm left */
+
+      margin-left: 5px;
+      margin-top: 50px;
+      margin-right: 100px; 
+    margin-bottom: 100px;   
 }
