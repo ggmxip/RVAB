@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 490px;
+    height: 500px;
+
+    border: 5px double salmon ;
+
+    /* overflow: hidden; */
+    overflow: auto;
+    /* overflow: scroll; */
+
+}
