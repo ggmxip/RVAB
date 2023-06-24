@@ -2,8 +2,15 @@ import streamlit as st
 
 import streamlit as st
 
+# Set the Streamlit page configuration
+st.set_page_config(
+    page_title="Map Display",
+    page_icon="🗺️",
+    layout="wide"
+)
+
 # Title
-st.title("Welcome Streamlit")
+st.title("Welcome Tourist")
 
 # Text Input
 user_input = st.text_input("Enter your name", "Your name here")
@@ -106,3 +113,23 @@ r = pdk.Deck(
 
 # Display the map using Streamlit
 st.pydeck_chart(r)
+
+# --------------------------------------------------------------
+
+from map_display import display_map
+import streamlit as st
+
+# Set the Streamlit page configuration
+st.set_page_config(
+    page_title="Map Display",
+    page_icon="🗺️",
+    layout="wide"
+)
+
+# Get the location input from the user
+location = st.text_input("Enter a location:")
+
+# Display the map for the given location
+if location:
+    display_map(location)
+
